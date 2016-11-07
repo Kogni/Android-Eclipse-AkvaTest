@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="activity_sample_code">AkvaApp v.AJ</string>
+    <string name="hello_worlda"><b>Hello <i>World! a</i></b></string>
+    <string name="hello_worldb"><b>Hello <i>World! b</i></b></string>
+    <string name="retained">Retained state</string>
+    <string name="alert_dialog_two_buttons_title">        Lorem ipsum dolor sit aie consectetur adipiscing\nPlloaso mako nuto
+        siwuf cakso dodtos anr koop.</string>
+    <!-- start page text -->
+    <string name="topic_button_browse">Browse species</string>
+    <string name="topic_button_aquarium">Your aquarium</string>
+    <string name="topic_button_settings">Settings</string>
+    <!-- -species info text -->
+    <string name="act_infopage">Species stats</string>
+    <string name="field_fishname">sdrhgegh</string>
+    <string name="field_commonnames">sdrhgegh</string>
+    <string name="field_temp_survive">sdrhgegh</string>
+    <string name="field_temp_optimal">sdrhgegh</string>
+    <string name="field_PH_survive">sdrhgegh</string>
+    <string name="field_PH_optimal">sdrhgegh</string>
+    <string name="field_KH_survive">sdrhgegh</string>
+    <string name="field_KH_optimal">sdrhgegh</string>
+    <string name="field_GH_survive">sdrhgegh</string>
+    <string name="field_GH_optimal">sdrhgegh</string>
+    <string name="field_Salinity_survive">sdrhgegh</string>
+    <string name="field_Salinity_optimal">sdrhgegh</string>
+    <string name="field_size">sdrhgegh</string>
+    <string name="field_diet">sdrhgegh</string>
+    <string name="field_predator">sdrhgegh</string>
+    <string name="field_level">sdrhgegh</string>
+    <string name="field_fe_male_ratio">sdrhgegh</string>
+    <string name="field_sex_diff">sdrhgegh</string>
+    <string name="field_behavior">sdrhgegh</string>
+    <string name="field_tank_vol">sdrhgegh</string>
+    <string name="field_tank_length_min">sdrhgegh</string>
+    <string name="field_difficulty">sdrhgegh</string>
+    <!-- -aqua info text -->
+    <string name="field_temp">sdrhgegh</string>
+    <string name="field_PH">sdrhgegh</string>
+    <string name="field_KH">sdrhgegh</string>
+    <string name="field_GH">sdrhgegh</string>
+    <string name="field_Salinity">sdrhgegh</string>
+    <string name="field_tank_length">sdrhgegh</string>
+    <string name="field_tank_volume">sdrhgegh</string>
+    <!-- -settings text -->
+    <string name="searchbox">search</string>
+
+</resources>
