@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:backgroundTint="@android:color/holo_blue_dark" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@android:drawable/gallery_thumb"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:orientation="vertical"
+        android:scrollbars="vertical" >
+
+        <EditText
+            android:id="@+id/searchbox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:background="@color/white"
+            android:textColor="@color/black"
+            android:text="Search" >
+
+            <requestFocus />
+        </EditText>
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="444dp"
+            android:backgroundTint="@android:color/holo_blue_bright"
+            android:foregroundTint="@android:color/holo_green_light" >
+
+            <ListView
+                android:id="@android:id/list"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:backgroundTint="@android:color/holo_blue_light"
+                android:drawSelectorOnTop="false"
+                android:outlineProvider="bounds" />
+
+            <TextView
+                android:id="@android:id/empty"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="No items."
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+        </FrameLayout>
+    </LinearLayout>
+
+</ScrollView>

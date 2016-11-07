@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.pynting.akvaapp_e_20160315" >
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <uses-sdk android:minSdkVersion="13" />
+
+    <supports-screens
+        android:compatibleWidthLimitDp="480"
+        android:requiresSmallestWidthDp="320" />
+
+    <application
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/app_sample_code"
+        android:label="@string/activity_sample_code" >
+        <activity android:name="com.pynting.akvaapp_e_20160315.Support13Demos" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="pack_generic.Act_MainGUI"
+            android:label="@string/topic_button_browse" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.pynting.akvaapp_e_20160315.SUPPORT13_SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.pynting.akvaapp_e_20160315.Act_Settings"
+            android:label="@string/topic_button_settings" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.pynting.akvaapp_e_20160315.SUPPORT13_SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="pack_fishy.Act_FishInfo"
+            android:label="@string/act_infopage" />
+    </application>
+
+</manifest>
